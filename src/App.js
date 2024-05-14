@@ -6,6 +6,7 @@ import React, { useState } from 'react'
 import One from './One.json';
 import Two from './Two.json';
 import Modal from './Components/Modal.tsx';
+import Navbar from './Components/Navbar';
 
 
 
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className="App bg-indigo-800">
+      <Navbar />
       <header className="App-header">
         <div className='bg-indigo-500 p-10 text-cyan-500'>This is Santiago</div>
         <img src={santisticker} className="App-logo" alt="logo" />
