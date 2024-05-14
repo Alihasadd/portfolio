@@ -2,7 +2,7 @@ import React from 'react'
 
 function Accordion() {
   return <>
-    <h1 className='font-bold'>Santi FAQs</h1>
+    <h1 className='font-bold bg-white'>FAQs</h1>
   </>;
 }
 
