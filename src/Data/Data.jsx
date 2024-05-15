@@ -5,15 +5,15 @@ import Counter from '../Assets/Counter.png'
 export const data = [
     {
         id: 1,
-        title: 'What is Netflix?',
+        title: 'Test dog',
         description: "Image taken on brooklyn bridge",
-        Image: {Counter},
+        image: santisticker,
     },
     {
         id: 2,
         title: 'Counter app',
         description: "Basic counter app",
-        Image: {Counter},
+        image: Counter,
     }
 ];
 
