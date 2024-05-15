@@ -10,6 +10,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './Components/Home';
 import Photography from './Components/Photography';
 import Navbar from './Components/Navbar';
+import CssGrid from './Components/CssGrid';
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
 
       </header>
          
-       
+       <CssGrid />
       <Accordion />
     </div>
   );
