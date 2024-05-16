@@ -20,6 +20,8 @@ function App() {
         setIsModalOpen(true);
     };
   
+
+  
   return (
     <div className="App bg-indigo-800 min-h-screen">
       <Navbar openModal={openModal}/>
@@ -31,15 +33,9 @@ function App() {
       {isModalOpen && <Modal setIsModalOpen={setIsModalOpen}/>}
       <header className="App-header">
         {/*sidebar, margin top to make it under the navbar*/}
-        <div className='bg-white p-2 text-cyan-500'></div>
-          <p>Here are various projects I've worked on:</p>
-        <p className='grid grid-cols-4 gap-4'>
-          
-        </p>
-
       </header>
          
-       <CssGrid />
+      
       <Accordion />
     </div>
   );
