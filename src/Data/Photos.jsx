@@ -11,6 +11,8 @@ import Santifocus from '../Assets/Santifocus.jpg'
 import Sunsetpark from '../Assets/Sunsetpark.jpg'
 import Santimiami from '../Assets/Santimiami.jpg'
 import Santinapa from '../Assets/Santinapa.jpg'
+import Santisubway from '../Assets/Santisubway.jpg'
+import Santivillagevoice from '../Assets/Santivillagevoice.jpg'
 
 const photos = [
     {
@@ -78,6 +80,20 @@ const photos = [
     },
     {
         id: 10,
+        title: 'Santiago in New York',
+        description: "Santi by the subway",
+        image: Santisubway,
+        link: 'https://codepen.io/Alihasadd/pen/mdgpVrW',
+    },
+    {
+        id: 11,
+        title: 'Santiago by the Village Voice',
+        description: "Santi in the East Village",
+        image: Santivillagevoice,
+        link: 'https://codepen.io/Alihasadd/pen/mdgpVrW',
+    },
+    {
+        id: 12,
         title: 'Santiago in Napa',
         description: "Santi enjoying Napa's wine country",
         image: Santinapa,
