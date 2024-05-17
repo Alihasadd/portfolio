@@ -21,8 +21,15 @@ function App() {
     };
   
 
+    const [darkMode, setDarkMode] = useState(false)
+
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    }
+
   
   return (
+    <div className={`${darkMode && 'dark'}`}>
     <div className="App bg-indigo-800 min-h-screen  dark:bg-rose-950 dark:text-white">
       <Navbar openModal={openModal}/>
       <Routes>
@@ -37,6 +44,7 @@ function App() {
          
       
       <Accordion />
+    </div>
     </div>
   );
 }
