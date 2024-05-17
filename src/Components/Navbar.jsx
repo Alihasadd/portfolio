@@ -28,17 +28,15 @@ function Navbar({openModal}) {
             <a href="/photography">Photography</a>
           </li>
         </ul>
-        <button onClick={openModal} className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>+</button>
+        <button onClick={openModal} className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>FAQ</button>
         </div>
 
         <div className='flex items-center gap-2 m-2'>
             <button className=' w-10 h-10 rounded-full  bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950' onClick={toggleDarkMode}>{darkMode ? 'L' : 'D'}</button>
         <ul className='flex flex-row gap-2'>
-          <li className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>
-            <a href="/">Contact</a>
-          </li>
-          <li className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>
-            <a href="https://github.com/Alihasadd" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt="GitHub Logo" className='h-6'/></a>
+          
+          <li className='p-2 bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark rounded-full '>
+            <a href="https://github.com/Alihasadd" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt="GitHub Logo" className='h-6 rounded-full' /></a>
           </li>
         </ul>
         </div>

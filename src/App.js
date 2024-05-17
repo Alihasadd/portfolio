@@ -35,6 +35,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/photography" element={<Photography />} />
+          <Route path="/accordion" element={<Accordion />} />
       </Routes>
 
       {isModalOpen && <Modal setIsModalOpen={setIsModalOpen}/>}
@@ -43,7 +44,7 @@ function App() {
       </header>
          
       
-      <Accordion />
+      
     </div>
     </div>
   );
