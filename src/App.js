@@ -29,9 +29,9 @@ function App() {
 
   
   return (
-    <div className={`${darkMode && 'dark'}`}>
+    <div className={`${darkMode && 'dark'}`} >
     <div className="App bg-indigo-800 min-h-screen  dark:bg-rose-950 dark:text-white">
-      <Navbar openModal={openModal}/>
+      <Navbar openModal={openModal} className={`${darkMode && 'dark'}`}/>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/photography" element={<Photography />} />

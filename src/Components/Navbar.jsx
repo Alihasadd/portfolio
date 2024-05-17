@@ -3,6 +3,7 @@ import Home from './Home'
 import Photography from './Photography'
 import santisticker from '../Assets/santisticker.png'
 import { useState } from 'react'
+import githublogo from '../Assets/githublogo.png'
 
 function Navbar({openModal}) {
     const [darkMode, setDarkMode] = useState(false)
@@ -37,7 +38,7 @@ function Navbar({openModal}) {
             <a href="/">Contact</a>
           </li>
           <li className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>
-            <a href="/photography">Github</a>
+            <a href="https://github.com/Alihasadd" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt="GitHub Logo" className='h-6'/></a>
           </li>
         </ul>
         </div>
