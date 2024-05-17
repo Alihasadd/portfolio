@@ -23,7 +23,7 @@ function App() {
 
   
   return (
-    <div className="App bg-indigo-800 min-h-screen">
+    <div className="App bg-indigo-800 min-h-screen  dark:bg-rose-950 dark:text-white">
       <Navbar openModal={openModal}/>
       <Routes>
           <Route path="/" element={<Home />} />
