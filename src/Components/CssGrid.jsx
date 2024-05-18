@@ -1,8 +1,17 @@
 import React from 'react';
 import data  from '../Data/Data';
+import { useState } from 'react';
 
 const CssGrid = () => {
+
+    const [darkMode, setDarkMode] = useState(false)
+
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    }
+
   return (
+    <div className={`${darkMode && 'dark'}`} >
     <div className='grid grid-cols-3  dark:bg-rose-950 dark:text-white'>
         {data.map ((items, i) => (
             <div key={items.id} className='bg-neutral-100 border-2 rounded-lg m-3 w-50  dark:bg-rose-950 dark:text-white'>
@@ -11,6 +20,7 @@ const CssGrid = () => {
                 <p ><img src={items.image} alt="Code" className='border-indigo-500/75 p-2 rounded-md' /></p>
             </div>
         ))}
+    </div>
     </div>
   );
 };

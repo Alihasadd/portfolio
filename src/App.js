@@ -11,6 +11,7 @@ import Home from './Components/Home';
 import Photography from './Components/Photography';
 import Navbar from './Components/Navbar';
 import CssGrid from './Components/CssGrid';
+import Layoffguide from './Components/Layoffguide';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/photography" element={<Photography />} />
           <Route path="/accordion" element={<Accordion />} />
+          <Route path="/layoffguide" element={<Layoffguide />} />
       </Routes>
 
       {isModalOpen && <Modal setIsModalOpen={setIsModalOpen}/>}
@@ -44,10 +46,16 @@ function App() {
       </header>
          
       
-      
     </div>
     </div>
   );
 }
 
 export default App;
+
+//introduction
+//about me, scrolling with background gentle
+//contact me modal
+//testimonials
+//usestate of dark and light mode
+//
