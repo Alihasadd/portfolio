@@ -7,6 +7,7 @@ import githublogo from '../Assets/githublogo.png'
 import lighticon from '../Assets/lighticon.png'
 import darkicon from '../Assets/darkicon.png'
 
+
 function Navbar({openModal}) {
     const [darkMode, setDarkMode] = useState(false)
 
