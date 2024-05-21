@@ -1,7 +1,8 @@
 import React from 'react'
 import santisticker from '../Assets/santisticker.png'
 import couponApp from '../Assets/couponapp.png'
-import CssGrid from './CssGrid'
+import Code from './Code'
+import Aboutme from './Aboutme'
 
 
 
@@ -10,7 +11,9 @@ function Home() {
 
   return (
     <div>
-      <CssGrid />
+      <Code />
+      <Aboutme />  
+      
     </div>
   )
 }
