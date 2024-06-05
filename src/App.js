@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className={`${darkMode && 'dark'}`}>
-    <div className="App bg-indigo-800 min-h-screen  dark:bg-rose-950 dark:text-white">
+    <div className=" dark:bg-rose-950 dark:text-white">
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       
       <Routes>

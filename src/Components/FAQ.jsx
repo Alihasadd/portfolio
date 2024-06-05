@@ -7,7 +7,7 @@ const FAQ = ( {title , answer}) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className='p-4 bg-s-800 bg-zinc-700 rounded-lg border-rose-800 opacity-90 border-2 dark:bg-zinc-950'>
+    <div className='p-4 bg-s-800 bg-zinc-700 rounded-lg border-rose-800 opacity-90 border-2 dark:bg-zinc-950 '>
       
         <button onClick={() => setAccordionOpen(!accordionOpen)} className='flex justify-between w-full'>
             <span>{title}</span>

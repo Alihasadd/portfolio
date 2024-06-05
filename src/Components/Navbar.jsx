@@ -12,10 +12,10 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
 
 
   return (
-    <div>
+    <div className="fixed w-full ">
         
       <nav className='flex justify-between items-center bg-pink-700 dark:bg-pink-950 '>
-      <div className='flex items-center gap-2'>
+      <div className='flex items-center gap-2 '>
         <a href="/"><img src={santisticker} className="App-logo object-scale-down h-10 p-1" alt="logo" /></a>
        
         <ul className='flex flex-row gap-2 '>

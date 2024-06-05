@@ -5,8 +5,24 @@ module.exports = {
   plugins: [],
   darkMode: 'class',
   theme: {
-    
+   
     extend: {
+
+      screens: { 
+      
+        'sm':"390px",
+        
+        'md': "640px",
+        // => @media (min-width: 640px) { ... }
+    
+        'lg': "1024px",
+        // => @media (min-width: 1024px) { ... }
+    
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... },
+        
+      },
+
       backgroundImage: {
         'Santicentral': "url('src/Assets/Santicentral.jpg')",
     },
