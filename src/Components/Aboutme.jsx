@@ -44,7 +44,7 @@ function Aboutme() {
           <li className='p-1'>2015 - How to get laid off</li>
           <li className='p-1'>2014 - HR</li>
           <li className='p-1'>2013 - How to kayak</li>
-          <li className='p-1'>2012 - </li>
+          <li className='p-1'>2012 - Talent acquisition</li>
           <li className='p-1'>2011 - </li>
           <li className='p-1'>2010 - </li>
         </ul>

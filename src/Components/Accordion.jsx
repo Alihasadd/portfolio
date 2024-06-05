@@ -5,7 +5,7 @@ import santicentral from '../Assets/Santicentral.jpg';
 function Accordion() {
   return <>
     
-    <div className='h-screen bg-center bg-scroll dark:bg-rose-800 pt-20'  alt="Central park" style={{backgroundImage: `url(${santicentral})`}} >
+    <div className='h-screen bg-center bg-scroll dark:bg-blue-800 pt-20'  alt="Central park" style={{backgroundImage: `url(${santicentral})`}} >
       <div className='p-6 text-gray-100 opacity-90 dark:text-gray-300'>
         <FAQ title='Do you like traveling?' answer='Yes, a lot! Ive traveled to 40+ countries!'/>
         <FAQ title='When did you get Santiago?' answer='2018'/>
@@ -20,7 +20,7 @@ function Accordion() {
         <FAQ title='Something you think everyone should do?' answer='I interviewed my grandparents and my dads twin to learn more about their lives. Hoping that future generations will be able to cherish the info!'/>
       </div>
 
-      <div className='m-6 p-6 bg-s-800 bg-zinc-700 rounded-lg border-rose-800 opacity-90 border-2 dark:bg-zinc-950'>
+      <div className='m-6 p-6 bg-s-800 bg-zinc-700 rounded-lg border-blue-800 opacity-90 border-2 dark:bg-zinc-950'>
         <p className='p-1 text-gray-100 opacity-90 dark:text-gray-300'>Ask a question</p>
         <input className='p-1 text-gray-100 opacity-90 dark:text-gray-300'></input>
       </div>

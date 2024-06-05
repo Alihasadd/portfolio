@@ -34,6 +34,62 @@ const data = [
         image: blog,
         link: '',
     },
+    {
+        id: 5,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 6,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 7,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 8,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 9,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 10,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 11,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
+    {
+        id: 12,
+        title: 'Blog app',
+        description: "Blog found here",
+        image: blog,
+        link: '',
+    },
 ];
 
 export default data
