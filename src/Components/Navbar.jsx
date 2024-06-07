@@ -12,7 +12,7 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
 
 
   return (
-    <div className="fixed w-full ">
+    <div className="fixed w-full z-10">
         
       <nav className='flex justify-between items-center bg-pink-700 dark:bg-blue-950 '>
       <div className='flex items-center gap-2 '>
