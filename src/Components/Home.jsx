@@ -1,5 +1,4 @@
 import React from 'react'
-import santisticker from '../Assets/santisticker.png'
 import couponApp from '../Assets/couponapp.png'
 import Code from './Code'
 import Aboutme from './Aboutme'

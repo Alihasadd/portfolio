@@ -20,7 +20,7 @@ function Accordion() {
         <FAQ title='Something you think everyone should do?' answer='I interviewed my grandparents and my dads twin to learn more about their lives. Hoping that future generations will be able to cherish the info!'/>
       </div>
 
-      <div className='m-6 p-6 bg-s-800 bg-zinc-700 rounded-lg border-blue-800 opacity-90 border-2 dark:bg-zinc-950'>
+      <div className='m-6 p-6 bg-s-800 bg-zinc-700 rounded-lg border-pink-800 opacity-90 border-2 dark:bg-zinc-950'>
         <p className='p-1 text-gray-100 opacity-90 dark:text-gray-300'>Ask a question</p>
         <input className='p-1 text-gray-100 opacity-90 dark:text-gray-300'></input>
       </div>

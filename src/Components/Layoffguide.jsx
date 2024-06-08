@@ -8,7 +8,7 @@ function Layoffguide() {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className='p-4 bg-gray-800 rounded-lg border-blue-900 border-2 '>
+    <div className='p-4 bg-gray-800 rounded-lg border-pink-900 border-2 '>
       
 
       <button onClick={() => setAccordionOpen(!accordionOpen)} className='flex justify-between w-full'>
@@ -30,3 +30,6 @@ function Layoffguide() {
 }
 
 export default Layoffguide
+
+
+//Why is this page not attached to the data? 
