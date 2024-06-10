@@ -1,5 +1,4 @@
 import React from 'react';
-import data  from '../Data/Data';
 import Photos from '../Data/Photos';
 import { useState } from 'react';
 import { useEffect } from 'react';

@@ -1,5 +1,4 @@
 import React from 'react'
-import Accordion from './Accordion'
 import react, { useState } from 'react';
 
 const FAQ = ( {title , answer}) => {

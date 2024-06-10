@@ -1,17 +1,12 @@
-import logo from './logo.svg';
-import santisticker from './Assets/santisticker.png';
 import './App.css';
 import Accordion from './Components/Accordion';
 import React, { useState } from 'react'
 import Modal from './Components/Modal';
 import { Routes, Route } from "react-router-dom";
-import Home from './Components/Home';
 import Photography from './Components/Photography';
 import Navbar from './Components/Navbar';
 import Code from './Components/Code';
 import Layoffguide from './Components/Layoffguide';
-import lighticon from './Assets/lighticon.png';
-import darkicon from './Assets/darkicon.png';
 import Aboutme from './Components/Aboutme';
 
 function App() {

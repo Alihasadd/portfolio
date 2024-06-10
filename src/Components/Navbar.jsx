@@ -1,6 +1,4 @@
 import React from 'react'
-import Home from './Home'
-import Photography from './Photography'
 import santisticker from '../Assets/santisticker.png'
 import githublogo from '../Assets/githublogo.png'
 import lighticon from '../Assets/lighticon.png'

@@ -1,6 +1,5 @@
 import React from 'react';
 import data  from '../Data/Data';
-import { useState } from 'react';
 
 const Code = () => {
 
