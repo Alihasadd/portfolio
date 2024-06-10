@@ -34,7 +34,7 @@ function App() {
           <Route path="/code" element={<Code />} />
           <Route path="/photography" element={<Photography />} />
           <Route path="/accordion" element={<Accordion />} />
-          <Route path="/layoffguide" element={<Layoffguide />} />
+          <Route path="/hr" element={<Layoffguide />} />
       </Routes>
 
       

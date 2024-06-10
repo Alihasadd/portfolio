@@ -28,7 +28,7 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
             <a href="/accordion">FAQs</a>
           </li>
           <li className='p-1 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-purple dark text-slate-200 dark:text-white'>
-            <a href="/accordion">HR</a>
+            <a href="/hr">HR</a>
           </li>
        </ul>
         
