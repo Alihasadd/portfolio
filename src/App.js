@@ -11,7 +11,7 @@ import Aboutme from './Components/Aboutme';
 
 function App() {
 
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(true)
 
     const openModal = () => {
         setIsModalOpen(true);

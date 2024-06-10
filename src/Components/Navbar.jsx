@@ -3,6 +3,7 @@ import santisticker from '../Assets/santisticker.png'
 import githublogo from '../Assets/githublogo.png'
 import lighticon from '../Assets/lighticon.png'
 import darkicon from '../Assets/darkicon.png'
+import { Link } from 'react-router-dom'
 
 
 function Navbar({openModal, toggleDarkMode, darkMode}) {
@@ -14,21 +15,21 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
         
       <nav className='flex justify-between items-center bg-pink-700 dark:bg-blue-950 '>
       <div className='flex items-center gap-1 '>
-        <a href="/"><img src={santisticker} className="App-logo object-scale-down h-10 p-1 m-1 dark:md:hover:bg-blue-800 hover:bg-pink-700" alt="logo" /></a>
+        <Link to="/"><img src={santisticker} className="App-logo object-scale-down h-10 p-1 m-1 dark:md:hover:bg-blue-800 hover:bg-pink-700" alt="logo" /></Link>
        
         <ul className='flex flex-row gap-1 '>
         
           <li className='p-1 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-blue dark text-slate-200 dark:text-white'>
-            <a href="/code">Code</a>
+            <Link to="/code">Code</Link>
           </li>
           <li className='p-1 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-purple dark text-slate-200 dark:text-white'>
-            <a href="/photography">Photo</a>
+            <Link to="/photography">Photo</Link>
           </li>
           <li className='p-1 rounded-lg flex justify-center w-16 hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-purple dark text-slate-200 dark:text-white'>
-            <a href="/accordion">FAQs</a>
+            <Link to="/accordion">FAQs</Link>
           </li>
           <li className='p-1 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-purple dark text-slate-200 dark:text-white'>
-            <a href="/hr">HR</a>
+            <Link to="/hr">HR</Link>
           </li>
        </ul>
         
