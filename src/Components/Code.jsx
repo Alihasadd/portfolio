@@ -21,3 +21,4 @@ const Code = () => {
 };
 
 export default Code
+//Add a link to other pages for code
