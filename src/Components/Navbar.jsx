@@ -4,6 +4,7 @@ import githublogo from '../Assets/githublogo.png'
 import lighticon from '../Assets/lighticon.png'
 import darkicon from '../Assets/darkicon.png'
 import { Link } from 'react-router-dom'
+import Modal from './Modal'
 
 
 function Navbar({openModal, toggleDarkMode, darkMode}) {
@@ -44,7 +45,9 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
           </li>
 
           <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
+            
             <Link to="/"><img src={santisticker} alt="GitHub Logo" className='h-6 rounded-full' /></Link>
+            
           </li>
         </ul>
         </div>
