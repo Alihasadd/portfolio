@@ -49,7 +49,6 @@ function Aboutme() {
           <li className='p-1'>2010 - How to navigate the NYC Subway</li>
           <li className='p-1'>2009 - Traveling in Panama and Costa Rica</li>
         </ul>
-
       </div>
 
       <div className='bg-neutral-100 rounded-lg ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'> 

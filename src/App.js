@@ -24,8 +24,10 @@ function App() {
         document.body.classList.toggle("dark");
     }
 
+    //<div className={`${darkMode && 'dark'}`}>
   return (
-    <div className={`${darkMode && 'dark'}`}>
+      <div>
+
     <div className=" dark:bg-rose-950 dark:text-white">
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       
