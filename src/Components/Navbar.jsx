@@ -7,18 +7,19 @@ import { Link } from 'react-router-dom'
 
 
 function Navbar({openModal, toggleDarkMode, darkMode}) {
-   
-
 
   return (
     <div className="fixed w-full z-10">
         
       <nav className='flex justify-between items-center bg-pink-700 dark:bg-blue-950 '>
       <div className='flex items-center gap-1 '>
-        <Link to="/"><img src={santisticker} className="App-logo object-scale-down h-10 p-1 m-1 dark:md:hover:bg-blue-800 hover:bg-pink-700" alt="logo" /></Link>
+        
+        
        
         <ul className='flex flex-row gap-1 '>
-        
+          <li className='p-1 ml-2 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-blue dark text-slate-200 dark:text-white'>
+            <Link to="/">Me</Link>
+          </li>
           <li className='p-1 rounded-lg w-16 flex justify-center hover:shadow-md hover:bg-pink-800 dark:md:hover:bg-blue-800 hover:dark:bg-blue-950 dark:bg-blue dark text-slate-200 dark:text-white'>
             <Link to="/code">Code</Link>
           </li>
@@ -41,6 +42,10 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
           <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
             <a href="https://github.com/Alihasadd" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt="GitHub Logo" className='h-6 rounded-full' /></a>
           </li>
+
+          <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
+            <Link to="/"><img src={santisticker} alt="GitHub Logo" className='h-6 rounded-full' /></Link>
+          </li>
         </ul>
         </div>
       </nav>
@@ -49,6 +54,5 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
 }
 
 export default Navbar
-
 
 //<button onClick={openModal} className='p-2 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white dark:bg-rose-950 dark'>FAQs</button>
