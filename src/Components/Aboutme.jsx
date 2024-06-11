@@ -77,7 +77,7 @@ function Aboutme() {
       </div>
 
 
-      <div className='grid grid-cols-2 flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950'>
+      <div className='grid grid-cols-2 flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950 hover:shadow-lg'>
         <span className='p-2 text-lg font-extrabold object-right'>
             <h1 className='object-right m-5'>Photography</h1>
         </span>
