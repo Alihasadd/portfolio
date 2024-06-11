@@ -45,12 +45,37 @@ function Aboutme() {
           <li className='p-1'>2014 - HR</li>
           <li className='p-1'>2013 - How to kayak</li>
           <li className='p-1'>2012 - Talent acquisition</li>
-          <li className='p-1'>2011 - </li>
-          <li className='p-1'>2010 - </li>
+          <li className='p-1'>2011 - Logistics</li>
+          <li className='p-1'>2010 - How to navigate the NYC Subway</li>
+          <li className='p-1'>2009 - Traveling in Panama and Costa Rica</li>
         </ul>
 
-        
       </div>
+
+      <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'> 
+        <h3 className='pb-2 justify-center text-lg font-extrabold'>Travel</h3>  
+        <p>I love traveling and had the opportunity to do so to many countries</p>
+        <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-blue-950 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
+          <li className='p-1'>2024 - Peru</li>
+          <li className='p-1'>2023 - Paraguay</li>
+          <li className='p-1'>2022 - Denmark, Greenland, and Egypt</li>
+          <li className='p-1'>2021 - Pakistan</li>
+          <li className='p-1'>2020 - Brasil and Uruguay</li>
+          <li className='p-1'>2019 - Argentina, Sweden, Norway, and Switzerland</li>
+          <li className='p-1'>2018 - Israel and Jordan</li>
+          <li className='p-1'>2017 - Iceland</li>
+          <li className='p-1'>2016 - Japan</li>
+          <li className='p-1'>2015 - Mexico</li>
+          <li className='p-1'>2014 - Chile</li>
+          <li className='p-1'>2013 - China</li>
+          <li className='p-1'>2012 - Hungary, Czech Republic, and Germany</li>
+          <li className='p-1'>2011 - France, Spain, and Holland</li>
+          <li className='p-1'>2010 - Chile</li>
+          <li className='p-1'>2009 - Panama and Costa Rica</li>
+        </ul>
+
+      </div>
+
 
       <div className='grid grid-cols-2 flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950'>
         <span className='p-2 text-lg font-extrabold object-right'>
