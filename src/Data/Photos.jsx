@@ -13,6 +13,10 @@ import Santimiami from '../Assets/Santimiami.jpg'
 import Santinapa from '../Assets/Santinapa.jpg'
 import Santisubway from '../Assets/Santisubway.jpg'
 import Santivillagevoice from '../Assets/Santivillagevoice.jpg'
+import Joshuatree from '../Assets/Joshuatree.jpg'
+import Joshuatreenight from '../Assets/Joshuatreenight.jpg'
+import Sundesert from '../Assets/Sundesert.jpg'
+import Desertreflection from '../Assets/Desertreflection.jpg'
 
 const photos = [
     {
@@ -99,7 +103,63 @@ const photos = [
         image: Santinapa,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
-   
+    {
+        id: 13,
+        title: 'Joshua Tree',
+        description: "Joshua Tree National Park",
+        image: Joshuatree,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 14,
+        title: 'Joshua Tree Desert',
+        description: "Night time in Joshua Tree National Park",
+        image: Joshuatreenight,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 15,
+        title: 'Desert Sun',
+        description: "Desert sun in Joshua Tree National Park",
+        image: Sundesert,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 16,
+        title: 'Desert Relfection',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 17,
+        title: 'Desert Relfection',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 18,
+        title: 'Desert Relfection',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 19,
+        title: 'Desert Relfection',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 20,
+        title: 'Desert Relfection',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+
 ];
 
 export default photos
