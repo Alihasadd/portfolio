@@ -17,6 +17,8 @@ import Joshuatree from '../Assets/Joshuatree.jpg'
 import Joshuatreenight from '../Assets/Joshuatreenight.jpg'
 import Sundesert from '../Assets/Sundesert.jpg'
 import Desertreflection from '../Assets/Desertreflection.jpg'
+import SOL from '../Assets/SOL.jpg'
+import ThomasFI from '../Assets/ThomasFI.jpg'
 
 const photos = [
     {
@@ -28,16 +30,16 @@ const photos = [
     },
     {
         id: 2,
-        title: 'San Diego',
-        description: "Santiago walking along the water",
-        image: Sandiego,
+        title: 'Thomas in Flatiron',
+        description: "Walking in Flatiron",
+        image: ThomasFI,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 3,
-        title: 'Navidad',
-        description: "Navidad Chile",
-        image: Navidad,
+        title: 'Joshua Tree Desert',
+        description: "Night time in Joshua Tree National Park",
+        image: Joshuatreenight,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -112,9 +114,9 @@ const photos = [
     },
     {
         id: 14,
-        title: 'Joshua Tree Desert',
-        description: "Night time in Joshua Tree National Park",
-        image: Joshuatreenight,
+        title: 'Navidad',
+        description: "Navidad Chile",
+        image: Navidad,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -133,9 +135,9 @@ const photos = [
     },
     {
         id: 17,
-        title: 'Desert Relfection',
-        description: "Desert mirror image",
-        image: Desertreflection,
+        title: 'Statute of Liberty',
+        description: "Taken from the Brooklyn Bridge",
+        image: SOL,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
