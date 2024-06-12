@@ -21,6 +21,7 @@ import SOL from '../Assets/SOL.jpg'
 import ThomasFI from '../Assets/ThomasFI.jpg'
 import Grandcentral from '../Assets/Grandcentralstairs.jpg'
 import Treeshadow from '../Assets/Treeshadows.jpg'
+import NYC from '../Assets/NYC.jpg'
 
 const photos = [
     {
@@ -32,14 +33,14 @@ const photos = [
     },
     {
         id: 2,
-        title: 'Thomas in Flatiron',
+        title: 'Flatiron',
         description: "Walking in Flatiron",
         image: ThomasFI,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 3,
-        title: 'Joshua Tree Desert',
+        title: 'Joshua Tree',
         description: "Night time in Joshua Tree National Park",
         image: Joshuatreenight,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
@@ -67,42 +68,42 @@ const photos = [
     },
     {
         id: 7,
-        title: 'Focused Santiago',
+        title: 'Dogpatch',
         description: "Waiting for the ball",
         image: Santifocus,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 8,
-        title: 'Santiago Chile',
+        title: 'Chile',
         description: "Sunset Santiago Chile",
         image: Sunsetpark,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 9,
-        title: 'Miami Boating',
+        title: 'Miami',
         description: "Santi boating in Miami",
         image: Santimiami,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 10,
-        title: 'Santiago in New York',
+        title: 'New York',
         description: "Santi by the subway",
         image: Santisubway,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 11,
-        title: 'Santiago by the Village Voice',
+        title: 'East Village',
         description: "Santi in the East Village",
         image: Santivillagevoice,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 12,
-        title: 'Santiago in Napa',
+        title: 'Napa',
         description: "Santi enjoying Napa's wine country",
         image: Santinapa,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
@@ -123,42 +124,63 @@ const photos = [
     },
     {
         id: 15,
-        title: 'Desert Sun',
+        title: 'Joshua Tree',
         description: "Desert sun in Joshua Tree National Park",
         image: Sundesert,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 16,
-        title: 'Desert Relfection',
+        title: 'Joshua Tree',
         description: "Desert mirror image",
         image: Desertreflection,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 17,
-        title: 'Statute of Liberty',
+        title: 'New York City',
         description: "Taken from the Brooklyn Bridge",
         image: SOL,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 18,
-        title: 'Grand Central Station',
+        title: 'Grand Central',
         description: "During Covid-19",
         image: Grandcentral,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 19,
-        title: 'Tree shadows',
+        title: 'Joshua Tree',
         description: "Desert mirror image",
         image: Treeshadow,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 20,
-        title: 'Desert Relfection',
+        title: 'Joshua Tree',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 21,
+        title: 'NYC',
+        description: "NYC",
+        image: NYC,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 22,
+        title: 'Joshua Tree',
+        description: "Desert mirror image",
+        image: Desertreflection,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 23,
+        title: 'Joshua Tree',
         description: "Desert mirror image",
         image: Desertreflection,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
