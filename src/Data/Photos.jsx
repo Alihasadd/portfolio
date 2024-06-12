@@ -19,6 +19,7 @@ import Sundesert from '../Assets/Sundesert.jpg'
 import Desertreflection from '../Assets/Desertreflection.jpg'
 import SOL from '../Assets/SOL.jpg'
 import ThomasFI from '../Assets/ThomasFI.jpg'
+import Grandcentral from '../Assets/Grandcentral.jpg'
 
 const photos = [
     {
@@ -142,9 +143,9 @@ const photos = [
     },
     {
         id: 18,
-        title: 'Desert Relfection',
-        description: "Desert mirror image",
-        image: Desertreflection,
+        title: 'Grand Central Station',
+        description: "During Covid-19",
+        image: Grandcentral,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
