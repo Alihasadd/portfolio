@@ -1,10 +1,7 @@
 import React from 'react'
-import Counter from '../Assets/Counter.png'
-import couponApp from '../Assets/couponapp.png'
-import Sanfran from '../Assets/Sanfran.jpg'
+
 import Sandiego from '../Assets/Sandiego.jpg'
 import Navidad from '../Assets/Navidad.jpg'
-import Santicentral from '../Assets/Santicentral.jpg'
 import Santiwindow from '../Assets/Santiwindow.jpg'
 import Andes from '../Assets/Andes.jpg'
 import Santifocus from '../Assets/Santifocus.jpg'
@@ -14,42 +11,46 @@ import Santinapa from '../Assets/Santinapa.jpg'
 import Santisubway from '../Assets/Santisubway.jpg'
 import Santivillagevoice from '../Assets/Santivillagevoice.jpg'
 import Joshuatree from '../Assets/Joshuatree.jpg'
-import Joshuatreenight from '../Assets/Joshuatreenight.jpg'
 import Sundesert from '../Assets/Sundesert.jpg'
 import Desertreflection from '../Assets/Desertreflection.jpg'
 import SOL from '../Assets/SOL.jpg'
-import ThomasFI from '../Assets/ThomasFI.jpg'
 import Grandcentral from '../Assets/Grandcentralstairs.jpg'
 import Treeshadow from '../Assets/Treeshadows.jpg'
 import NYC from '../Assets/NYC.jpg'
+import Fireworks from '../Assets/Fireworks.jpg'
+import Oculus from '../Assets/Oculus.jpg'
+
+const image = (name) => {
+    return require(`../Assets/${name}.jpg`)
+  }
 
 const photos = [
     {
         id: 1,
         title: 'San Francisco',
         description: "Santiago's first time in San Francisco",
-        image: Sanfran,
+        image: image("Sanfran"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 2,
         title: 'Flatiron',
         description: "Walking in Flatiron",
-        image: ThomasFI,
+        image: image("ThomasFI"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 3,
         title: 'Joshua Tree',
         description: "Night time in Joshua Tree National Park",
-        image: Joshuatreenight,
+        image: image("Joshuatreenight"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 4,
         title: 'Central park',
         description: "Santiago in Central Park",
-        image: Santicentral,
+        image: image("Santicentral"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -75,9 +76,9 @@ const photos = [
     },
     {
         id: 8,
-        title: 'Chile',
-        description: "Sunset Santiago Chile",
-        image: Sunsetpark,
+        title: 'Oculus',
+        description: "Fidi Manhattan",
+        image: Oculus,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -131,9 +132,9 @@ const photos = [
     },
     {
         id: 16,
-        title: 'Joshua Tree',
-        description: "Desert mirror image",
-        image: Desertreflection,
+        title: 'NYC',
+        description: "NYC Sky line fireworks",
+        image: Fireworks,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -159,9 +160,9 @@ const photos = [
     },
     {
         id: 20,
-        title: 'Joshua Tree',
+        title: 'DC',
         description: "Desert mirror image",
-        image: Desertreflection,
+        image: image("DCFireworks"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -175,14 +176,35 @@ const photos = [
         id: 22,
         title: 'Joshua Tree',
         description: "Desert mirror image",
-        image: Desertreflection,
+        image: image("Desertreflection"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 23,
-        title: 'Joshua Tree',
+        title: 'Montreal',
         description: "Desert mirror image",
-        image: Desertreflection,
+        image: image("Montrealrainbow"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 24,
+        title: 'Chile',
+        description: "Sunset Santiago Chile",
+        image: Sunsetpark,
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 25,
+        title: 'Covid Claps',
+        description: "Santiago in Central Park",
+        image: image("Clap"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 25,
+        title: 'Flatiron',
+        description: "Santiago in Central Park",
+        image: image("Pride"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
 
