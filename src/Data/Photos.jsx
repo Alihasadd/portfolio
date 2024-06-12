@@ -19,7 +19,8 @@ import Sundesert from '../Assets/Sundesert.jpg'
 import Desertreflection from '../Assets/Desertreflection.jpg'
 import SOL from '../Assets/SOL.jpg'
 import ThomasFI from '../Assets/ThomasFI.jpg'
-import Grandcentral from '../Assets/Grandcentral.jpg'
+import Grandcentral from '../Assets/Grandcentralstairs.jpg'
+import Treeshadow from '../Assets/Treeshadows.jpg'
 
 const photos = [
     {
@@ -150,9 +151,9 @@ const photos = [
     },
     {
         id: 19,
-        title: 'Desert Relfection',
+        title: 'Tree shadows',
         description: "Desert mirror image",
-        image: Desertreflection,
+        image: Treeshadow,
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {

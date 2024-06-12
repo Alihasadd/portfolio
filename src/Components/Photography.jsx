@@ -17,9 +17,9 @@ const Photography = () => {
                 <Masonry>
                 {Photos.map ((items, i) => (
                 <div key={items.id} className='bg-neutral-100 rounded-lg m-3 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg relative'>
-                    <p className='object-contain group overflow-hidden group-hover:rounded-lg rounded-lg'><img src={items.image} alt="Code" className='group-hover:brightness-125 group-hover:rotate-2 group-hover:scale-110 opacity-80 group-hover:opacity-100 object-contain  rounded-lg ' /></p>
+                    <p className='object-contain group overflow-hidden group-hover:rounded-lg rounded-lg'><img src={items.image} alt="Code" className='group-hover:brightness-125 group-hover:rotate-2 group-hover:scale-110 opacity-70 group-hover:opacity-100 object-contain rounded-lg ' /></p>
                     <div className='absolute bottom-0 bg-gradient-to-t from-neutral-900 w-full rounded-lg hover:text-opacity-0 '>
-                      <h2 className='hover:text-opacity-0 text-l m-2 text-align-center dark:bg-blue-950 text-zinc-300 '>{items.title}</h2>
+                      <h2 className='hover:text-opacity-0 text-l m-2 text-align-center  text-zinc-300 '>{items.title}</h2>
                       {/*<p className='hover:text-opacity-0 m-2 text-xs text-align-justify  dark:bg-blue-950 dark:text-zinc-400'>{items.description}</p>*/}
                     </div>
                 </div>
