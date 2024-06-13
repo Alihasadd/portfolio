@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import Modal from './Modal'
 
 
-function Navbar({openModal, toggleDarkMode, darkMode}) {
+function Navbar({openModal, toggleDarkMode, darkMode, setIsModalOpen}) {
 
   return (
     <div className="fixed w-full z-10">
@@ -46,7 +46,7 @@ function Navbar({openModal, toggleDarkMode, darkMode}) {
 
           <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
             
-            <Link to="/"><img src={santisticker} alt="GitHub Logo" className='h-6 rounded-full' /></Link>
+            <button  onClick={() => setIsModalOpen(true)} alt="GitHub Logo"><img src={santisticker} className='h-6 rounded-full'/></button>
             
           </li>
         </ul>

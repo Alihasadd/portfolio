@@ -11,7 +11,7 @@ import Aboutme from './Components/Aboutme';
 
 function App() {
 
-  const [isModalOpen, setIsModalOpen] = useState(true)
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
     const openModal = () => {
         setIsModalOpen(true);
@@ -24,12 +24,12 @@ function App() {
         document.body.classList.toggle("dark");
     }
 
-    //<div className={`${darkMode && 'dark'}`}>
   return (
       <div>
 
     <div className=" dark:bg-rose-950 dark:text-white">
-      <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
+      <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} setIsModalOpen={setIsModalOpen}/>
+      
       
       <Routes>
           <Route path="/" element={<Aboutme />} />
