@@ -193,6 +193,27 @@ const photos = [
         image: image("Birdfish"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
+    {
+        id: 28,
+        title: 'Central Park',
+        description: "Santiago in Central Park",
+        image: image("Birdhand"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 29,
+        title: 'The Wharf',
+        description: "Santiago in Central Park",
+        image: image("Alice"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 30,
+        title: 'Central Park',
+        description: "Santiago in Central Park",
+        image: image("Birdhand"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
 
 ];
 
