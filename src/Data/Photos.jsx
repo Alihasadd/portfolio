@@ -1,24 +1,3 @@
-import React from 'react'
-
-import Sandiego from '../Assets/Sandiego.jpg'
-import Navidad from '../Assets/Navidad.jpg'
-import Santiwindow from '../Assets/Santiwindow.jpg'
-import Andes from '../Assets/Andes.jpg'
-import Santifocus from '../Assets/Santifocus.jpg'
-import Sunsetpark from '../Assets/Sunsetpark.jpg'
-import Santimiami from '../Assets/Santimiami.jpg'
-import Santinapa from '../Assets/Santinapa.jpg'
-import Santisubway from '../Assets/Santisubway.jpg'
-import Santivillagevoice from '../Assets/Santivillagevoice.jpg'
-import Joshuatree from '../Assets/Joshuatree.jpg'
-import Sundesert from '../Assets/Sundesert.jpg'
-import Desertreflection from '../Assets/Desertreflection.jpg'
-import SOL from '../Assets/SOL.jpg'
-import Grandcentral from '../Assets/Grandcentralstairs.jpg'
-import Treeshadow from '../Assets/Treeshadows.jpg'
-import NYC from '../Assets/NYC.jpg'
-import Fireworks from '../Assets/Fireworks.jpg'
-import Oculus from '../Assets/Oculus.jpg'
 
 const image = (name) => {
     return require(`../Assets/${name}.jpg`)
@@ -57,105 +36,105 @@ const photos = [
         id: 5,
         title: 'Gramercy Park',
         description: "Santiago at home",
-        image: Santiwindow,
+        image: image("Santiwindow"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 6,
         title: 'Andes Mountains',
         description: "Flying over Chile",
-        image: Andes,
+        image: image("Andes"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 7,
         title: 'Dogpatch',
         description: "Waiting for the ball",
-        image: Santifocus,
+        image: image("Santifocus"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 8,
         title: 'Oculus',
         description: "Fidi Manhattan",
-        image: Oculus,
+        image: image("Oculus"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 9,
         title: 'Miami',
         description: "Santi boating in Miami",
-        image: Santimiami,
+        image: image("Santimiami"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 10,
         title: 'New York',
         description: "Santi by the subway",
-        image: Santisubway,
+        image: image("Santisubway"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 11,
         title: 'East Village',
         description: "Santi in the East Village",
-        image: Santivillagevoice,
+        image: image("Santivillagevoice"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 12,
         title: 'Napa',
         description: "Santi enjoying Napa's wine country",
-        image: Santinapa,
+        image: image("Santinapa"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 13,
         title: 'Joshua Tree',
         description: "Joshua Tree National Park",
-        image: Joshuatree,
+        image: image("Joshuatree"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 14,
         title: 'Navidad',
         description: "Navidad Chile",
-        image: Navidad,
+        image: image("Navidad"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 15,
         title: 'Joshua Tree',
         description: "Desert sun in Joshua Tree National Park",
-        image: Sundesert,
+        image: image("Sundesert"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 16,
         title: 'NYC',
         description: "NYC Sky line fireworks",
-        image: Fireworks,
+        image: image("Fireworks"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 17,
         title: 'New York City',
         description: "Taken from the Brooklyn Bridge",
-        image: SOL,
+        image: image("SOL"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 18,
         title: 'Grand Central',
         description: "During Covid-19",
-        image: Grandcentral,
+        image: image("Grandcentralstairs"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
         id: 19,
         title: 'Joshua Tree',
         description: "Desert mirror image",
-        image: Treeshadow,
+        image: image("Treeshadows"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -169,7 +148,7 @@ const photos = [
         id: 21,
         title: 'NYC',
         description: "NYC",
-        image: NYC,
+        image: image("NYC"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -182,7 +161,7 @@ const photos = [
     {
         id: 23,
         title: 'Montreal',
-        description: "Desert mirror image",
+        description: "Montreal",
         image: image("Montrealrainbow"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
@@ -190,7 +169,7 @@ const photos = [
         id: 24,
         title: 'Chile',
         description: "Sunset Santiago Chile",
-        image: Sunsetpark,
+        image: image("Sunsetpark"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
@@ -201,10 +180,17 @@ const photos = [
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
     {
-        id: 25,
+        id: 26,
+        title: 'Flatiron',
+        description: "Flatiron Building",
+        image: image("Pride"),
+        link: 'https://stock.adobe.com/contributor/210564764/Ali',
+    },
+    {
+        id: 27,
         title: 'Flatiron',
         description: "Santiago in Central Park",
-        image: image("Pride"),
+        image: image("Birdfish"),
         link: 'https://stock.adobe.com/contributor/210564764/Ali',
     },
 
