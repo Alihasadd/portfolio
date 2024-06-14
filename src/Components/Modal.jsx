@@ -29,7 +29,7 @@ const Modal = ({setIsModalOpen}) => {
 
             <input type="email" placeholder="Email" className="p-3 m-5 rounded-lg border-2 border-rose-700 w-80" required/>
         
-            <textarea name="message" id="message" placeholder="Message me!" cols="10" rows="5" className="border-rose-700 border-2 rounded-lg w-full p-3 m-5 outline-none w-80" required></textarea>
+            <textarea name="message" id="message" placeholder="Message me!" cols="5" rows="5" className="border-rose-700 border-2 rounded-lg w-full p-3 m-5 outline-none w-80" required></textarea>
             <button type="submit" className="bg-rose-700 text-white p-5 rounded-lg m-5">Send</button>
         </form>
         
