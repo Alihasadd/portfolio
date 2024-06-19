@@ -44,7 +44,7 @@ export const countries = {
     "KY": "Cayman Islands",
     "CF": "Central African Republic",
     "TD": "Chad",
-    "CL": "Chile",
+    "CL": "Chile",  
     "CN": "China",
     "CX": "Christmas Island",
     "CC": "Cocos (Keeling) Islands",
@@ -66,4 +66,9 @@ export const countries = {
     "EC": "Ecuador",
     "EG": "Egypt",
     "SV": "El Salvador",
+    "GQ": "Equatorial Guinea",
+    "ER": "Eritrea",
+    "EE": "Estonia",
+    "ET": "Ethiopia",
+    
 }

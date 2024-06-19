@@ -5,14 +5,20 @@ import { countries } from '../Data/Countries';
 
 function Worldmap() {
   return (
-    <div className='rounded-lg snap-center flex justify-center m-5'>
-        <div className=' h-96 w-5/6 bg-blue-500 '>
-            <VectorMap 
-                map={worldMill}  />
-
-      </div>
+    <div className='rounded-lg p-10'>
+        
     </div>
   );
 }
 
 export default Worldmap;
+
+
+
+//<div className=' bg-blue-500 flex justify-center h-96 size-full '>
+//<VectorMap 
+//map={worldMill}
+//color="red"
+//data={countries}  />
+
+//</div>
