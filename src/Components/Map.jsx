@@ -1,5 +1,4 @@
 import React from 'react'
-import React from "react"
 import { ComposableMap, Geographies, Geography } from "react-simple-maps"
 
 const geoUrl =

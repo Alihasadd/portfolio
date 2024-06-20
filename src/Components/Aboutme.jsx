@@ -3,6 +3,7 @@ import alisanti from '../Assets/AliSanti.jpg'
 import santimiami from '../Assets/Santimiami.jpg'
 import sanfran from '../Assets/Sanfran.jpg'
 import Worldmap from './Worldmap'
+import Map from './Map'
 
 function Aboutme() {
   return (
@@ -59,9 +60,13 @@ function Aboutme() {
       <div className='bg-neutral-100 rounded-lg ml-10 mr-10 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'> 
         <h3 className='pb-2 justify-center text-lg font-extrabold'>Travel</h3>  
         <p>I love traveling and had the opportunity to do so to many countries</p>
-        <div className=''> 
+        <div className='h-80 w-full'> 
           <Worldmap/>
         </div>
+        <div className='h-80 w-full'>
+        <Map/>
+        </div>
+
        <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
           <li className='p-1'>2024 - Peru</li>
           <li className='p-1'>2023 - Paraguay</li>
@@ -89,31 +94,31 @@ function Aboutme() {
             <h1 className='object-right m-5'>Photography</h1>
         </span>
 
-    <main class="md:w-[600px] w-[60vw] md:h-[400px] h-[40vw] overflow-hidden rounded-r-lg object-left">
-        <div id="slide1" class="slide" className='rounded-r-lg object-left' >
-            <img class="image" className='rounded-r-lg object-left' src={santimiami}/>
-            <a href="#slide3" class="prev arrow">
+    <main className="md:w-[600px] w-[60vw] md:h-[400px] h-[40vw] overflow-hidden rounded-r-lg object-left">
+        <div id="slide1" className='rounded-r-lg object-left slide' >
+            <img className='rounded-r-lg object-left image' src={santimiami}/>
+            <a href="#slide3" className="prev arrow">
                 &lt;
             </a>
-            <a href="#slide2" class="next arrow">
+            <a href="#slide2" className="next arrow">
                 &gt;
             </a> 
         </div>
-        <div id="slide2" class="slide" className='rounded-r-lg'>
-            <img class="image" className='rounded-r-lg' src={alisanti}/>
-            <a href="#slide1" class="prev arrow">
+        <div id="slide2" className='rounded-r-lg slide'>
+            <img  className='rounded-r-lg image' src={alisanti}/>
+            <a href="#slide1" className="prev arrow">
                 &lt;
             </a>
-            <a href="#slide3" class="next arrow">
+            <a href="#slide3" className="next arrow">
                 &gt;
             </a>
         </div>
-        <div id="slide3" class="slide">
-            <img class="image" className='rounded-r-lg' src={sanfran}/>
-            <a href="#slide2" class="prev arrow">
+        <div id="slide3" className="slide">
+            <img className='rounded-r-lg image' src={sanfran}/>
+            <a href="#slide2" className="prev arrow">
                 &lt;
             </a>
-            <a href="#slide1" class="next arrow">
+            <a href="#slide1" className="next arrow">
                 &gt;
             </a>
         </div>
