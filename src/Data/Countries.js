@@ -19,7 +19,33 @@ const countries = {
   GB: { year: "Several", scale: 100, phrase: "Init" },
   GL: { year: "2022", scale: 30, phrase: "" },
   IS: { year: "2016", scale: 30, phrase: "" },
-  ES: { year: "2011", scale: 30, phrase: "" },
+  ES: { year: "2011", scale: 30, phrase: "" }, //Spain
+  TH: { year: "2017", scale: 30, phrase: "" }, //Thailand
+  SG: { year: "2016", scale: 30, phrase: "" }, //Singapore
+  CN: { year: "2013", scale: 30, phrase: "Sticky Rice" }, //China
+  PT: { year: "2021", scale: 30, phrase: "A gente" }, //Portugal
+  DE: { year: "2011", scale: 30, phrase: "" }, //Germany
+  SE: { year: "2019", scale: 30, phrase: "Goodnart" }, //Sweden
+  NO: { year: "2019", scale: 30, phrase: "Cured Salmon" }, //Norway
+  FR: { year: "2019, 2018, 2011", scale: 30, phrase: "Croissant" }, //France
+  BE: { year: "2017", scale: 30, phrase: "Sticky Rice" }, //Belgium
+  IT: { year: "2022", scale: 30, phrase: "" }, //Italy
+  NL: { year: "2011", scale: 30, phrase: "Sticky Rice" }, //Netherlands
+  CZ: { year: "2011", scale: 30, phrase: "Praha" }, //Czech Republic
+  HU: { year: "2017", scale: 30, phrase: "" }, //Hungary
+  DK: { year: "2022, 2019", scale: 30, phrase: "" }, //Denmark
+  JO: { year: "2018", scale: 30, phrase: "" }, //Jordan
+  IL: { year: "2018", scale: 30, phrase: "" }, //Israel
+  SK: { year: "2011", scale: 30, phrase: "" }, //Slovakia
+  JP: { year: "2016", scale: 30, phrase: "" }, //Japan
+  HK: { year: "2017", scale: 30, phrase: "" }, //Hong Kong
+  H: { year: "2017", scale: 30, phrase: "" }, //Hungary
+
+  S: { year: "2017", scale: 30, phrase: "Sticky Rice" }, //Switzerland
+
+
+
+
   // "CX": "Christmas Island",
   // "CC": "Cocos (Keeling) Islands",
   // "CO": "Colombia",

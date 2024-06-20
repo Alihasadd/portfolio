@@ -54,18 +54,14 @@ function Aboutme() {
         </ul>
       </div>
 
-      
 
-
-      <div className='bg-neutral-100 rounded-lg ml-10 mr-10 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'> 
+      <div className='bg-neutral-100 rounded-lg ml-10 mr-10 m-2 p-7 dark:bg-blue-950 dark:text-white group hover:shadow-lg'> 
         <h3 className='pb-2 justify-center text-lg font-extrabold'>Travel</h3>  
-        <p>I love traveling and had the opportunity to do so to many countries</p>
-        <div className='h-80 w-full bg-rose-950'> 
+        <p>I love traveling and had the opportunity to travel to over 40 countries.</p>
+        <div className='w-full rounded-lg hover:shadow-lg p-5'> 
           <Worldmap/>
         </div>
-        <div className='h-80 w-full'>
-        <Map/>
-        </div>
+        
 
        <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
           <li className='p-1'>2024 - Peru</li>
