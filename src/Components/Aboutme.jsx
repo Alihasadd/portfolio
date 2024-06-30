@@ -57,7 +57,7 @@ function Aboutme() {
 
       <div className='bg-neutral-100 rounded-lg ml-10 mr-10 m-2 p-7 dark:bg-blue-950 dark:text-white group hover:shadow-lg'> 
         <h3 className='pb-2 justify-center text-lg font-extrabold rounded-lg '>Travel</h3>  
-        <p>I love traveling and had the opportunity to travel to over 40 countries.</p>
+        <p>I love traveling and had the opportunity to travel to over 40 countries which are highlighted in blue.</p>
         <div className="p-5">
           <div className='w-full rounded-lg hover:shadow-lg h-[500px] overflow-hidden'>
             <Worldmap/>
