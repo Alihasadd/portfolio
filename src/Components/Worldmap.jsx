@@ -5,7 +5,7 @@ import { countryScales, countryYears, countryPhrase } from "../Data/Countries";
 
 function Worldmap() {
   return (
-    <div className="rounded-lg p-10">
+    <div className="rounded-lg h-full">
       <div className=" bg-blue-500 flex justify-center size-full">
         <VectorMap
           map={worldMill}
