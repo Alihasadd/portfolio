@@ -36,15 +36,15 @@ function Navbar({openModal, toggleDarkMode, darkMode, setIsModalOpen}) {
        </ul>
         
         </div>
-        <div className='flex items-center gap-2 m-2'>
+        <div className='flex items-center gap-1 m-1'>
             <button className=' w-10 h-10 rounded-full p-1 dark:bg-blue-950 text-white hover:shadow-md' onClick={toggleDarkMode}>{darkMode ?  <img src={lighticon}/> : <img src={darkicon}/>}</button>
-        <ul className='flex flex-row gap-2'>
+        <ul className='flex flex-row gap-1'>
           
-          <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
+          <li className='p-2 m-1 hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
             <a href="https://github.com/Alihasadd" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt="GitHub Logo" className='h-6 rounded-full' /></a>
           </li>
 
-          <li className='p-2  hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
+          <li className='p-2 m-1 hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>
             
             <button  onClick={() => setIsModalOpen(true)} alt="GitHub Logo"><img src={santisticker} className='h-6 rounded-full'/></button>
             

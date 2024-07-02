@@ -41,7 +41,7 @@ const countries = {
   HK: { year: "2017", scale: 1, phrase: "" }, //Hong Kong
   H: { year: "2017", scale: 1, phrase: "" }, //Hungary
 
-  : { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Switzerland
+  SW: { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Switzerland
 
 
 
