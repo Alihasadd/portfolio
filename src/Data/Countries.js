@@ -2,7 +2,7 @@ const countries = {
   PK: { year: "2021", scale: 1, phrase: "Ice cream walla" }, //Pakistan
   US: { year: "Every year", scale: 5, phrase: "Yee haw!" }, //United States
   CA: { year: "2022, 2019, 2009", scale: 5, phrase: "Git statusssss" }, //Canada
-  BR: { year: "2020", scale: 2, phrase: "" }, //Brazil
+  BR: { year: "2020", scale: 2, phrase: "a gente" }, //Brazil
   AU: { year: "2019", scale: 1, phrase: "" }, //Australia
   CL: { year: "2023, 2019, 2016, ", scale: 5, phrase: "Weon" }, //Chile
   MX: { year: "2017,2016", scale: 3, phrase: "Weyyy" }, //Mexico
@@ -20,7 +20,7 @@ const countries = {
   GL: { year: "2022", scale: 1, phrase: "" }, //Greenland
   IS: { year: "2016", scale: 1, phrase: "Foss" }, //Iceland
   ES: { year: "2011", scale: 1, phrase: "Siesta" }, //Spain
-  TH: { year: "2017", scale: 1, phrase: "" }, //Thailand
+  TH: { year: "2017", scale: 1, phrase: "Kap Kun Ka" }, //Thailand
   SG: { year: "2016", scale: 1, phrase: "" }, //Singapore
   CN: { year: "2013", scale: 1, phrase: "Sticky Rice" }, //China
   PT: { year: "2021", scale: 1, phrase: "A gente" }, //Portugal
