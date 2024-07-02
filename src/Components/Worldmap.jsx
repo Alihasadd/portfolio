@@ -33,9 +33,17 @@ function Worldmap() {
                 min: 0,
                 max: 100,
                 scale: ["#C8EEFF", "#0071A4"],
-                //normalizeFunction: 'polynomial'
+                //normalizeFunction: 'polynomial',
+                legend: {
+                  horizontal: true,
+                  cssClass: 'jvectormap-legend-icons',
+                  title: 'Business type'
+                }
               },
+              
+              
             ],
+            
           }}
         />
       </div>
