@@ -33,7 +33,7 @@ function Navbar({openModal, toggleDarkMode, darkMode, setIsModalOpen}) {
               </li>
             </ul>
           </div>
-          <div className='flex items-center gap-1 mr-3'>
+          <div className='flex items-center gap-1 mr-3 lg:mr-0'>
             <button className=' w-10 h-10 rounded-full p-1 dark:bg-blue-950 text-white hover:shadow-md' onClick={toggleDarkMode}>{darkMode ?  <img src={lighticon}/> : <img src={darkicon}/>}</button>
             <ul className='flex flex-row gap-1 items-center'>
               <li className='p-2 m-1 hover:shadow-md text-white dark:bg-blue-950 dark rounded-full '>

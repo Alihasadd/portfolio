@@ -8,7 +8,7 @@ function Aboutme() {
   return (
     <div className='grid grid-cols-1 bg-zinc-200 dark:bg-blue-900 dark:text-white pt-20'>
       <div className="container mx-auto">
-        <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg'>
+        <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg lg:mx-0'>
           <div className='flex flex-wrap justify-between items-center overflow-hidden rounded-lg lg:flex-row-reverse'>
             <div className="w-full md:w-1/2">
               <img src={alisanti} alt="Code" className='group-hover:brightness-125 group-hover:-rotate-1 group-hover:scale-105 group-hover:opacity-80 dark:bg-zinc-700 dark:text-zinc-300 lg:rounded-r-lg' />
@@ -20,7 +20,7 @@ function Aboutme() {
           </div>
         </div>
 
-        <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'>
+        <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
           <p className='pb-3'>I started my career as a recruiter in JP Morgan chase and then CIBC. I wanted to move to a company that was new and help build a team so I decided to go to a startup next. I joined an Adtech company in New York where I helped build out there recruiting and HR practices.</p>
           <p className='pb-3'>It was at that startup I started to work with a tech team who planted the seed to learn more about coding and software engineering. I decided to do a part time course at General Assembly to learn more. I loved the class but couldn't apply it easily. I kept up learning small bits here and there. </p>
@@ -28,7 +28,7 @@ function Aboutme() {
           <p className='pb-3'>It was there I got to do my first engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more imersed into software engineering.</p>
         </div>
       
-        <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10'> 
+        <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
           <h3 className='pb-2 justify-center text-lg font-extrabold'>Learning</h3>  
           <p>We are all life long learners. I found research that the more you push yourself to learn the more elastic your brain will stay as you age. I've made it a goal to always be looking for things to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years</p>
           <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
@@ -51,7 +51,7 @@ function Aboutme() {
           </ul>
         </div>
 
-        <div className='bg-neutral-100 rounded-lg ml-10 mr-10 m-2 p-7 dark:bg-blue-950 dark:text-white group hover:shadow-lg'>
+        <div className='bg-neutral-100 rounded-lg ml-10 mr-10 m-2 p-7 dark:bg-blue-950 dark:text-white group hover:shadow-lg lg:mx-0'>
           <h3 className='pb-2 justify-center text-lg font-extrabold'>Travel</h3>  
           <p>I love traveling and had the opportunity to travel to over 40 countries.</p>
           <div className="p-5">
@@ -80,22 +80,22 @@ function Aboutme() {
           </ul>
         </div>
 
-        <div className='flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950 hover:shadow-lg'>
+        <div className='flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950 hover:shadow-lg lg:mx-0'>
           <span className='p-2 text-lg font-extrabold object-right'>
               <h1 className='object-right m-5'>Photography</h1>
           </span>
 
-          <main className="md:w-[600px] w-[60vw] md:h-[400px] h-[40vw] overflow-hidden rounded-r-lg object-left">
-              <div id="slide1" className='rounded-r-lg object-left slide' >
+          <main className="md:w-[600px] w-[60vw] overflow-hidden rounded-r-lg object-left">
+              <div id="slide1" className='rounded-r-lg object-left slide'>
                   <img className='rounded-r-lg object-left image' src={santimiami}/>
-                  <a href="#slide3" className="prev arrow">
+                  {/* <a href="#slide3" className="prev arrow">
                       &lt;
                   </a>
                   <a href="#slide2" className="next arrow">
                       &gt;
-                  </a> 
+                  </a>  */}
               </div>
-              <div id="slide2" className='rounded-r-lg slide'>
+              {/* <div id="slide2" className='rounded-r-lg slide'>
                   <img  className='rounded-r-lg image' src={alisanti}/>
                   <a href="#slide1" className="prev arrow">
                       &lt;
@@ -112,7 +112,7 @@ function Aboutme() {
                   <a href="#slide1" className="next arrow">
                       &gt;
                   </a>
-              </div>
+              </div> */}
           </main>
         </div>
       </div>
