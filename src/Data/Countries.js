@@ -1,47 +1,47 @@
 const countries = {
-  PK: { year: "2021", scale: 60, phrase: "Ice cream walla" }, //Pakistan
-  US: { year: "Every year", scale: 100, phrase: "Yee haw!" }, //United States
-  CA: { year: "2022, 2019, 2009", scale: 50, phrase: "Git statusssss" }, //Canada
-  BR: { year: "2020", scale: 30, phrase: "" }, //Brazil
-  AU: { year: "2019", scale: 20, phrase: "Sorry, eh?" }, //Australia
-  CL: { year: "2023, 2019, 2016, ", scale: 90, phrase: "Weon" }, //Chile
-  MX: { year: "2017,2016", scale: 50, phrase: "Weyyy" }, //Mexico
-  PR: { year: "2018, 2019,", scale: 50, phrase: "Sato" }, //Puerto Rico
-  EC: { year: "2022", scale: 30, phrase: "" }, //Ecuador
-  PE: { year: "2024", scale: 30, phrase: "Plop" }, //Peru
-  CO: { year: "2018", scale: 30, phrase: "" }, //Colombia
-  CR: { year: "2022", scale: 30, phrase: "Pura Video" }, //Costa Rica
-  PA: { year: "2017, 2009", scale: 50, phrase: "Buenas" }, //Panama
-  UY: { year: "2023, 2020", scale: 50, phrase: "" }, //Uruguay
-  PY: { year: "2023", scale: 30, phrase: "" }, //Paraguay
-  EG: { year: "2021", scale: 30, phrase: "Mumtaz" }, //Egypt
-  AR: { year: "2023, 2019", scale: 30, phrase: "Mumtaz" }, //Argentina
-  GB: { year: "Several", scale: 100, phrase: "Init" }, //United Kingdom
-  GL: { year: "2022", scale: 30, phrase: "" }, //Greenland
-  IS: { year: "2016", scale: 30, phrase: "Foss" }, //Iceland
-  ES: { year: "2011", scale: 30, phrase: "Siesta" }, //Spain
-  TH: { year: "2017", scale: 30, phrase: "" }, //Thailand
-  SG: { year: "2016", scale: 30, phrase: "" }, //Singapore
-  CN: { year: "2013", scale: 30, phrase: "Sticky Rice" }, //China
-  PT: { year: "2021", scale: 30, phrase: "A gente" }, //Portugal
-  DE: { year: "2011", scale: 30, phrase: "Prost" }, //Germany
-  SE: { year: "2019", scale: 30, phrase: "Goodnart" }, //Sweden
-  NO: { year: "2019", scale: 30, phrase: "Cured Salmon" }, //Norway
-  FR: { year: "2019, 2018, 2011", scale: 30, phrase: "Croissant" }, //France
-  BE: { year: "2017", scale: 30, phrase: "Sticky Rice" }, //Belgium
-  IT: { year: "2022", scale: 30, phrase: "" }, //Italy
-  NL: { year: "2011", scale: 30, phrase: "" }, //Netherlands
-  CZ: { year: "2011", scale: 30, phrase: "Praha" }, //Czech Republic
-  HU: { year: "2017", scale: 30, phrase: "" }, //Hungary
-  DK: { year: "2022, 2019", scale: 30, phrase: "" }, //Denmark
-  JO: { year: "2018", scale: 30, phrase: "kunafa" }, //Jordan
-  IL: { year: "2018", scale: 30, phrase: "Adonai" }, //Israel
-  SK: { year: "2011", scale: 30, phrase: "" }, //Slovakia
-  JP: { year: "2016", scale: 30, phrase: "Mairimasu" }, //Japan
-  HK: { year: "2017", scale: 30, phrase: "" }, //Hong Kong
-  H: { year: "2017", scale: 30, phrase: "" }, //Hungary
+  PK: { year: "2021", scale: 1, phrase: "Ice cream walla" }, //Pakistan
+  US: { year: "Every year", scale: 5, phrase: "Yee haw!" }, //United States
+  CA: { year: "2022, 2019, 2009", scale: 5, phrase: "Git statusssss" }, //Canada
+  BR: { year: "2020", scale: 2, phrase: "" }, //Brazil
+  AU: { year: "2019", scale: 1, phrase: "" }, //Australia
+  CL: { year: "2023, 2019, 2016, ", scale: 5, phrase: "Weon" }, //Chile
+  MX: { year: "2017,2016", scale: 3, phrase: "Weyyy" }, //Mexico
+  PR: { year: "2018, 2019,", scale: 3, phrase: "Sato" }, //Puerto Rico
+  EC: { year: "2022", scale: 1, phrase: "" }, //Ecuador
+  PE: { year: "2024", scale: 2, phrase: "Plop" }, //Peru
+  CO: { year: "2018", scale: 1, phrase: "" }, //Colombia
+  CR: { year: "2022", scale: 2, phrase: "Pura Video" }, //Costa Rica
+  PA: { year: "2017, 2009", scale: 2, phrase: "Buenas" }, //Panama
+  UY: { year: "2023, 2020", scale: 2, phrase: "" }, //Uruguay
+  PY: { year: "2023", scale: 1, phrase: "" }, //Paraguay
+  EG: { year: "2021", scale: 1, phrase: "Mumtaz" }, //Egypt
+  AR: { year: "2023, 2019", scale: 1, phrase: "Mumtaz" }, //Argentina
+  GB: { year: "Several", scale: 5, phrase: "Init" }, //United Kingdom
+  GL: { year: "2022", scale: 1, phrase: "" }, //Greenland
+  IS: { year: "2016", scale: 1, phrase: "Foss" }, //Iceland
+  ES: { year: "2011", scale: 1, phrase: "Siesta" }, //Spain
+  TH: { year: "2017", scale: 1, phrase: "" }, //Thailand
+  SG: { year: "2016", scale: 1, phrase: "" }, //Singapore
+  CN: { year: "2013", scale: 1, phrase: "Sticky Rice" }, //China
+  PT: { year: "2021", scale: 1, phrase: "A gente" }, //Portugal
+  DE: { year: "2011", scale: 1, phrase: "Prost" }, //Germany
+  SE: { year: "2019", scale: 1, phrase: "Goodnart" }, //Sweden
+  NO: { year: "2019", scale: 1, phrase: "Cured Salmon" }, //Norway
+  FR: { year: "2019, 2018, 2011", scale: 4, phrase: "Croissant" }, //France
+  BE: { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Belgium
+  IT: { year: "2022", scale: 1, phrase: "" }, //Italy
+  NL: { year: "2011", scale: 1, phrase: "" }, //Netherlands
+  CZ: { year: "2011", scale: 1, phrase: "Praha" }, //Czech Republic
+  HU: { year: "2017", scale: 1, phrase: "" }, //Hungary
+  DK: { year: "2022, 2019", scale: 3, phrase: "" }, //Denmark
+  JO: { year: "2018", scale: 1, phrase: "kunafa" }, //Jordan
+  IL: { year: "2018", scale: 1, phrase: "Adonai" }, //Israel
+  SK: { year: "2011", scale: 1, phrase: "" }, //Slovakia
+  JP: { year: "2016", scale: 1, phrase: "Mairimasu" }, //Japan
+  HK: { year: "2017", scale: 1, phrase: "" }, //Hong Kong
+  H: { year: "2017", scale: 1, phrase: "" }, //Hungary
 
-  S: { year: "2017", scale: 30, phrase: "Sticky Rice" }, //Switzerland
+  : { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Switzerland
 
 
 

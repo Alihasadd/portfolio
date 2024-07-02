@@ -31,13 +31,13 @@ function Worldmap() {
               {
                 values: countryScales,
                 min: 0,
-                max: 100,
+                max: 5,
                 scale: ["#C8EEFF", "#0071A4"],
                 //normalizeFunction: 'polynomial',
                 legend: {
                   horizontal: true,
                   cssClass: 'jvectormap-legend-icons',
-                  title: 'Business type'
+                  title: 'Visits'
                 }
               },
               
