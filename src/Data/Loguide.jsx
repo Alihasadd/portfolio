@@ -72,6 +72,13 @@ const Loguide = [
         image: "blog",
         link: '',
     },
+    {
+        id: 11,
+        title: 'Who does not get laid off?',
+        answer: "Everyone is capable of getting laid off but some roles are more suseptible to different trends. But the good news is that not all of us will lose our jobs to AI.",
+        image: "blog",
+        link: '',
+    },
 ];
 
 export default Loguide
