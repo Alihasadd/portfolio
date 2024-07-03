@@ -9,7 +9,7 @@ const Photography = () => {
 
   return (
     
-    <div className=' bg-zinc-200 dark:bg-zinc-950 dark:text-zinc-300 pt-20 min-h-lvh'>
+    <div className='container mx-auto bg-zinc-200 dark:bg-zinc-950 dark:text-zinc-300 pt-20 min-h-lvh'>
       
       <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}

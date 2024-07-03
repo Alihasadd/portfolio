@@ -27,7 +27,7 @@ function App() {
   return (
       <div>
 
-    <div className=" dark:bg-rose-950 dark:text-white">
+    <div className=" dark:bg-zinc-950 dark:text-white bg-zinc-200">
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} setIsModalOpen={setIsModalOpen}/>
       
       <Routes>

@@ -30,24 +30,24 @@ function Aboutme() {
       
         <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
           <h3 className='pb-2 justify-center text-lg font-extrabold'>Learning</h3>  
-          <p>We are all life long learners. I found research that the more you push yourself to learn the more elastic your brain will stay as you age. I've made it a goal to always be looking for things to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years</p>
+          <p>We are all life long learners. I found research that says the more you learn the more elastic your brain will be. I've made it a goal to always be looking for ways to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years:</p>
           <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
             <li className='p-1'>2024 - Software Engineering</li>
-            <li className='p-1'>2023 - Got a boat license </li>
+            <li className='p-1'>2023 - How to drive boats </li>
             <li className='p-1'>2022 - That you can go into the pyramids in Egypt</li>
-            <li className='p-1'>2021 - Learned some Urdu phrases</li>
-            <li className='p-1'>2020 - How to jet ski </li>
-            <li className='p-1'>2019 - Dog training</li>
+            <li className='p-1'>2021 - Some simple Urdu phrases</li>
+            <li className='p-1'>2020 - How to jet ski</li>
+            <li className='p-1'>2019 - How to train dogs</li>
             <li className='p-1'>2018 - Started learning French</li>
             <li className='p-1'>2017 - Read 12 books</li>
-            <li className='p-1'>2016 - Front end web development</li>
+            <li className='p-1'>2016 - Some front end web development</li>
             <li className='p-1'>2015 - How to get laid off</li>
-            <li className='p-1'>2014 - HR</li>
+            <li className='p-1'>2014 - How People operations works</li>
             <li className='p-1'>2013 - How to kayak</li>
-            <li className='p-1'>2012 - Talent acquisition</li>
-            <li className='p-1'>2011 - Logistics</li>
+            <li className='p-1'>2012 - How the Talent acquisition process works</li>
+            <li className='p-1'>2011 - How Logistics works</li>
             <li className='p-1'>2010 - How to navigate the NYC Subway</li>
-            <li className='p-1'>2009 - Traveling in Panama and Costa Rica</li>
+            <li className='p-1'>2009 - How to travel in Panama and Costa Rica</li>
           </ul>
         </div>
 
