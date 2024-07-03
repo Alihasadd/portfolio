@@ -23,7 +23,7 @@ function Aboutme() {
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
           <p className='pb-3'>I started my career as a recruiter in JP Morgan chase and then CIBC. I wanted to move to a company that was new and help build a team so I decided to go to a startup next. I joined an Adtech company in New York where I helped build out there recruiting and HR practices.</p>
-          <p className='pb-3'>It was at that startup I started to work with a tech team who planted the seed to learn more about coding and software engineering. I decided to do a part time course at General Assembly to learn more. I loved the class but couldn't apply it easily. I kept up learning small bits here and there. </p>
+          <p className='pb-3'>It was at that startup I started to work with a tech team who started to teach me more about coding and software engineering. I decided to do a part time course at General Assembly to learn more. I loved the class but couldn't apply it easily. I kept up learning small bits here and there. </p>
           <p className='pb-3'>I had a desire to be more impersed in tech and I seeking roles with that in mind. I moved from HRBP roles to Talent tools, HR systems, and doing talent tools and the companies intranet and diving into content strategy on the employee experience engineering team.</p>
           <p className='pb-3'>It was there I got to do my first engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more imersed into software engineering.</p>
         </div>
