@@ -26,21 +26,21 @@ const data = [
     },
     {
         id: 3,
-        title: 'Coupon app',
+        title: 'Coupon App',
         description: "",
         image: image("Code12"),
         link: '',
     },
     {
         id: 4,
-        title: 'Blog app',
+        title: 'Blog App',
         description: "",
         image: image("Code13"),
         link: '',
     },
     {
         id: 5,
-        title: 'Code Pen practice',
+        title: 'Code Pen Practice',
         description: "",
         image: image("Code2"),
         link: '',
@@ -54,7 +54,7 @@ const data = [
     },
     {
         id: 7,
-        title: 'Blog app',
+        title: 'Blog App',
         description: "",
         image: image("Code7"),
         link: '',
