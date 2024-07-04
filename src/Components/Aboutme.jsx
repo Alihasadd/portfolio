@@ -22,15 +22,16 @@ function Aboutme() {
 
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
-          <p className='pb-3'>I started my career as a recruiter in JP Morgan Chase and then CIBC (Canadian Imperial Bank of Commerce). I wanted to move to a company that was new and help build a team so I decided to go to a startup next. I joined an Adtech company in New York where I helped build out there recruiting and people operations practices.</p>
-          <p className='pb-3'>It was at that startup I started to work with a tech team who started to teach me more about coding and software engineering. I decided to do a part time course at General Assembly to learn more. I loved the class but couldn't apply it easily. I kept up learning small bits here and there. </p>
-          <p className='pb-3'>I had a desire to be more impersed in tech and I seeking roles with that in mind. I moved from HRBP roles to Talent tools, HR systems, and doing talent tools and the companies intranet and diving into content strategy on the employee experience engineering team.</p>
-          <p className='pb-3'>It was there I got to do my first engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more imersed into software engineering.</p>
+          <p className='pb-3'>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
+          <p className='pb-3'>I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>
+          <p className='pb-3'>While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>
+          <p className='pb-3'>I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.</p>
+          <p className='pb-3'>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.</p>
         </div>
       
         <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
-          <h3 className='pb-2 justify-center text-lg font-extrabold'>Learning</h3>  
-          <p>We are all life long learners. I found research that says the more you learn the more elastic your brain will be. I've made it a goal to always be looking for ways to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years:</p>
+          <h3 className='pb-2 justify-center text-lg font-extrabold'>We are all life long learners</h3>  
+          <p>I found research that says the more you learn the more elastic your brain will be. I've made it a goal to always be looking for ways to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years:</p>
           <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
             <li className='p-1'>2024 - Software Engineering</li>
             <li className='p-1'>2023 - How to drive boats </li>
