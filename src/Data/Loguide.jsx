@@ -5,7 +5,7 @@ const Loguide = [
     {
         id: 1,
         title: 'Before you get laid off',
-        answer: "Take notes",
+        answer: "Take notes of the conversation. It will probably be quick with a follow up message. Don&apos;t sign anything (it won’t hold up in court anyway)",
         image: "",
         link: '',
     },
