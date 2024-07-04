@@ -12,7 +12,7 @@ const Loguide = [
     {
         id: 2,
         title: 'When youre getting laid off',
-        answer: "Grab your performance reviews if you have any. Write down stats that you can use for your resume, write a list of people you'd like to stay in contact with so you can reach out later.",
+        answer: "Grab your performance reviews if you have any. Write down stats that you can use for your resume, write a list of people you'd like to stay in contact with so you can reach out later. Delete personal information such as tax documents and remove personal apps like imessage. ",
         image: "Counter",
         link: 'https://codepen.io/Alihasadd/pen/mdgpVrW',
     },

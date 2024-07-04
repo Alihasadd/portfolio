@@ -5,7 +5,7 @@ import santicentral from '../Assets/Santicentral.jpg';
 function Accordion() {
   return <>
     
-    <div className='h-screen bg-center bg-scroll dark:bg-blue-800 pt-20 '  alt="Central park" style={{backgroundImage: `url(${santicentral})`}} >
+    <div className='h-screen bg-center bg-scroll dark:bg-inidigo-950 pt-20 '  alt="Central park" style={{backgroundImage: `url(${santicentral})`}} >
       <div className='p-6 text-gray-100 opacity-90  dark:text-gray-300 container mx-auto'>
         <FAQ title='Do you like traveling?' answer='Yes, a lot! Ive traveled to 40+ countries!'/>
         <FAQ title='When did you get Santiago?' answer='2018'/>
