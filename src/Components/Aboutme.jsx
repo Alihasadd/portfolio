@@ -15,7 +15,7 @@ function Aboutme() {
               <img src={alisanti} alt="Code" className='group-hover:brightness-125 group-hover:-rotate-1 group-hover:scale-105 group-hover:opacity-80 dark:bg-zinc-700 dark:text-zinc-300 lg:rounded-r-lg' />
             </div>
             <div className="w-full md:w-1/2">
-            <h1 className='p-5 justify-center text-lg hover:rounded-lg font-medium text-gray-700 lg:text-5xl'>
+            <h1 className='p-5 justify-center text-lg hover:rounded-lg font-medium text-gray-700 lg:text-5xl dark:text-white'>
                 Hi, I'm <span className="font-extrabold text-pink-600">Ali</span>
               </h1>
               <p className='p-5'>I am from the New York City area and now live in Washington D.C. </p>

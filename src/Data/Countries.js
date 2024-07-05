@@ -42,7 +42,7 @@ const countries = {
   H: { year: "2017", scale: 1, phrase: "" }, //Hungary
 
   SW: { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Switzerland
-
+  
 
 
 
@@ -69,7 +69,9 @@ const countries = {
   // "GQ": "Equatorial Guinea",
   // "ER": "Eritrea",
   // "EE": "Estonia",
-  // "ET": "Ethiopia",
+   "ET": "Ethiopia",
+
+
 };
 
 export const countryYears = Object.keys(countries).reduce((acc, key) => {
