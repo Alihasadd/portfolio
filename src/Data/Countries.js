@@ -69,9 +69,7 @@ const countries = {
   // "GQ": "Equatorial Guinea",
   // "ER": "Eritrea",
   // "EE": "Estonia",
-   "ET": "Ethiopia",
-
-
+  //  "ET": "Ethiopia",
 };
 
 export const countryYears = Object.keys(countries).reduce((acc, key) => {

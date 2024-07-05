@@ -40,10 +40,7 @@ function Worldmap() {
                   title: 'Visits'
                 }
               },
-              
-              
             ],
-            
           }}
         />
       </div>
