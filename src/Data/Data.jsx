@@ -31,7 +31,7 @@ const data = [
         description: "",
         image: image("Code1"),
         link: '',
-    }
+    },
     {
         id: 4,
         title: 'Blog App',
