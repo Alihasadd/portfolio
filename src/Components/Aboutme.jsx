@@ -22,8 +22,8 @@ function Aboutme() {
         </div>
 
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
-          <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
-          <p className='pb-3'>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
+          <h2 className='pb-2 justify-center text-lg font-extrabold  '>My Skills</h2>
+          <p className='pb-3 '>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
           <p className='pb-3'>I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>
           <p className='pb-3'>While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>
           <p className='pb-3'>I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.</p>

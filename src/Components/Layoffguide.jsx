@@ -9,7 +9,7 @@ function Layoffguide() {
     const [accordionOpen, setAccordionOpen] = useState(false);
     console.log(loguide)
   return (
-    <div className='p-4 text-zinc-300 border-pink-900 dark:border-blue-950 border-2 pt-20 bg-zinc-300 h-lvh'>
+    <div className='p-4 text-zinc-300 border-2 pt-20 bg-zinc-300'>
       
 
       <button onClick={() => setAccordionOpen(!accordionOpen)} className='flex justify-between'>
@@ -29,7 +29,7 @@ function Layoffguide() {
 
         </div>
         
-        <div className='pt-20'>
+        <div className='pt-10'>
         {loguide.map ((item, i) => (
               <div className='text-white  bg-zinc-300'>
                 <FAQ title={item.title} answer={item.answer}/>
