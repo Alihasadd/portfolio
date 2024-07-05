@@ -14,16 +14,21 @@ function Aboutme() {
             <div className="w-full md:w-1/2">
               <img src={alisanti} alt="Code" className='group-hover:brightness-125 group-hover:-rotate-1 group-hover:scale-105 group-hover:opacity-80 dark:bg-zinc-700 dark:text-zinc-300 lg:rounded-r-lg' />
             </div>
-            <div className="w-full md:w-1/2">
-              <h1 className='p-5 justify-center text-lg hover:rounded-lg font-extrabold'>Hi, I'm Ali</h1>
-              <p className='p-5'>I am from the New York City area and now live in Washington D.C. </p>
+            <div className="w-full md:w-1/2 lg:pl-6">
+              <h1 className='p-5 justify-center text-lg hover:rounded-lg font-medium text-gray-700 lg:text-[40px]'>
+                Hi, I'm
+                <span className="ml-2 relative lg:text-5xl font-extrabold text-pink-600">
+                  <span className="relative z-10 drop-shadow-lg">Ali</span>
+                </span>
+              </h1>
+              <p className='p-5 lg:pt-0 lg:leading-[38px] lg:text-[26px] text-gray-600'>I am from the New York City area and now live in Washington D.C. </p>
             </div>
           </div>
         </div>
 
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
-          <div className='divide-y-4 divide-black divide-opacity-25'>
+          <div className='divide-y-[5px] divide-black/25'>
             {[
               "I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. ",
               "I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.",
@@ -35,7 +40,7 @@ function Aboutme() {
             ))}
           </div>
         </div>
-      
+
         <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
           <h3 className='pb-2 justify-center text-lg font-extrabold'>We are all life long learners</h3>  
           <p>I found research that says the more you learn the more elastic your brain will be. I've made it a goal to always be looking for ways to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years:</p>
@@ -93,12 +98,12 @@ function Aboutme() {
         </div>
 
         <div className='flex flex-col-reverse items-center justify-between overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950 hover:shadow-lg md:flex-row lg:mx-0'>
-          <div className='p-5 text-lg font-lg object-right'>
-            <h1 className='object-right w-full md:w-1/2'>I like to combine my love of learning with travel. Here I am using my boating license while traveling in Miami</h1>
+          <div className='w-full md:w-1/2 p-5 text-lg font-lg object-right lg:px-14 lg:leading-[38px] lg:text-[26px]'>
+            <h1>I like to combine my love of learning with travel. Here I am using my boating license while traveling in Miami</h1>
           </div>
-          <div className="overflow-hidden md:w-[700px] md:self-stretch">
+          <div className="w-full md:w-1/2 overflow-hidden md:self-stretch">
             <div id="slide1" className='slide h-full'>
-              <img className='image object-cover' src={santimiami} />
+              <img className='w-full h-full object-cover' src={santimiami} />
               {/* <a href="#slide3" className="prev arrow">
                       &lt;
                   </a>
