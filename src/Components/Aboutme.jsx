@@ -18,7 +18,7 @@ function Aboutme() {
               <h1 className='p-5 justify-center text-lg hover:rounded-lg font-medium text-gray-700 lg:text-[40px]'>
                 Hi, I'm
                 <span className="ml-2 relative lg:text-5xl font-extrabold text-pink-600">
-                  <span className="relative z-10 drop-shadow-lg">Ali</span>
+                  <span className="relative z-10">Ali</span>
                 </span>
               </h1>
               <p className='p-5 lg:pt-0 lg:leading-[38px] lg:text-[26px] text-gray-600'>I am from the New York City area and now live in Washington D.C. </p>
