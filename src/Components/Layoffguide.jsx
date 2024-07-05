@@ -17,7 +17,7 @@ function Layoffguide() {
       </button>
       
       {interview.map ((item, i) => (
-              <div className='text-white  bg-zinc-300'>
+              <div className='text-white  bg-zinc-300' key={i} >
                 <FAQ title={item.title} answer={item.answer}/>
               </div>
             ))}

@@ -4,9 +4,6 @@
 @tailwind base;
 @tailwind components;
 
-
-
-
 * {
   @apply transition-all duration-300 !important;
 }

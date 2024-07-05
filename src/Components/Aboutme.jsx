@@ -6,6 +6,8 @@ import Worldmap from './Worldmap'
 import Carousel from './Carousel'
 
 function Aboutme() {
+  const highlight = "font-medium text-rose-700"
+
   return (
     <div className='grid grid-cols-1 bg-zinc-200 dark:bg-blue-900 dark:text-white pt-20'>
       <div className="container mx-auto">
@@ -28,15 +30,17 @@ function Aboutme() {
 
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
-          <div className='divide-y-[5px] divide-black/25'>
+          <div className='divide-y-2 divide-rose-700/60'>
             {[
-              "I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. ",
-              "I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.",
-              "While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.",
-              "I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.",
-              "It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.",
+              <p>I started my career as a Recruiter at JP Morgan Chase and then at <span className={highlight}>CIBC (Canadian Imperial Bank of Commerce)</span>. While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup.</p>,
+              <p>I joined an <span className={highlight}>Adtech company</span> in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>,
+              <p>While at a startup, I started to work with a tech team who taught me more about <span className={highlight}>software engineering</span>. I did a Front-end web development course at <span className={highlight}>General Assembly</span> course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>,
+              <p>I wanted to be more immersed in tech, so I started looking for tech roles. I moved <span className={highlight}>Talent tools, HR systems</span>, and doing <span className={highlight}>system implementations</span> and the company's intranet and diving into content strategy on the <span className={highlight}>employee experience engineering</span> team.</p>,
+              <p>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in <span className={highlight}>software engineering</span>.</p>,
             ].map((item, index) => (
-              <p className='py-4 last:pb-0' key={index}>{item}</p>
+              <div className='py-4 last:pb-0' key={index}>
+                {item}
+              </div>
             ))}
           </div>
         </div>
@@ -44,28 +48,30 @@ function Aboutme() {
         <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
           <h3 className='pb-2 justify-center text-lg font-extrabold'>We are all life long learners</h3>  
           <p>I found research that says the more you learn the more elastic your brain will be. I've made it a goal to always be looking for ways to learn, even if it's a small amount about a topic. Here are some of the things I've learned over the years:</p>
-          <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
-            {[
-              "2024 - Software Engineering",
-              "2023 - How to drive boats ",
-              "2022 - That you can go into the pyramids in Egypt",
-              "2021 - Some simple Urdu phrases",
-              "2020 - How to jet ski",
-              "2019 - How to train dogs",
-              "2018 - Started learning French",
-              "2017 - Read 12 books",
-              "2016 - Some front end web development",
-              "2015 - How to get laid off",
-              "2014 - How People operations works",
-              "2013 - How to kayak",
-              "2012 - How the Talent acquisition process works",
-              "2011 - How Logistics works",
-              "2010 - How to navigate the NYC Subway",
-              "2009 - How to travel in Panama and Costa Rica",
-            ].map((item, index) => (
-              <li className='p-1' key={index}>{item}</li>
-            ))}
-          </ul>
+          <div className="m-5 border border-slate-600 rounded-lg overflow-hidden">
+            <ul className='bg-neutral-200 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-64 hover:shadow-inner'>
+              {[
+                "2024 - Software Engineering",
+                "2023 - How to drive boats ",
+                "2022 - That you can go into the pyramids in Egypt",
+                "2021 - Some simple Urdu phrases",
+                "2020 - How to jet ski",
+                "2019 - How to train dogs",
+                "2018 - Started learning French",
+                "2017 - Read 12 books",
+                "2016 - Some front end web development",
+                "2015 - How to get laid off",
+                "2014 - How People operations works",
+                "2013 - How to kayak",
+                "2012 - How the Talent acquisition process works",
+                "2011 - How Logistics works",
+                "2010 - How to navigate the NYC Subway",
+                "2009 - How to travel in Panama and Costa Rica",
+              ].map((item, index) => (
+                <li className='p-1' key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         <div className='bg-neutral-100 rounded-lg ml-10 mr-10 m-2 p-7 dark:bg-blue-950 dark:text-white group hover:shadow-lg lg:mx-0'>
@@ -73,7 +79,7 @@ function Aboutme() {
           <p>I love traveling and had the opportunity to travel to over 40 countries.</p>
           <div className="p-5">
             <div className='w-full rounded-lg hover:shadow-lg h-[500px] overflow-hidden'>
-              <Worldmap/>
+              <Worldmap />
             </div>
           </div>
 
