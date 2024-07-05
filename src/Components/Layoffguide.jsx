@@ -2,6 +2,7 @@ import React from 'react'
 import loguide from '../Data/Loguide'
 import { useState } from 'react';
 import FAQ from './FAQ';
+import interview from '../Data/Interview'
 
 function Layoffguide() {
 
@@ -15,7 +16,7 @@ function Layoffguide() {
        
       </button>
       
-      {loguide.map ((item, i) => (
+      {interview.map ((item, i) => (
               <div className='text-white  bg-zinc-300'>
                 <FAQ title={item.title} answer={item.answer}/>
               </div>
@@ -27,7 +28,21 @@ function Layoffguide() {
             </div>
 
         </div>
+        
+        <div className='pt-20'>
+        {loguide.map ((item, i) => (
+              <div className='text-white  bg-zinc-300'>
+                <FAQ title={item.title} answer={item.answer}/>
+              </div>
+            ))}
 
+        <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-white text-sm ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+            <div className='overflow-hidden '>
+    
+            </div>
+
+        </div>
+        </div>
     </div>
   )
   

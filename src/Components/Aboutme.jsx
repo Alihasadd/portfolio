@@ -3,6 +3,7 @@ import alisanti from '../Assets/AliSanti.jpg'
 import santimiami from '../Assets/Santimiami.jpg'
 import sanfran from '../Assets/Sanfran.jpg'
 import Worldmap from './Worldmap'
+import Carousel from './Carousel'
 
 function Aboutme() {
   return (
@@ -86,10 +87,17 @@ function Aboutme() {
               <h1 className='object-right m-5 w-full md:w-1/2'>I like to combine my love of learning with travel. Here I am using my boating license while traveling in Miami</h1>
           </span>
 
+        
+          
+
+
           <main className="md:w-[700px] w-[60vw] overflow-hidden rounded-r-lg object-left">
               <div id="slide1" className='rounded-r-lg object-left slide '>
+                
                   <img className='rounded-r-lg object-left image' src={santimiami}/>
-                  {/* <a href="#slide3" className="prev arrow">
+
+
+ {/* <a href="#slide3" className="prev arrow">
                       &lt;
                   </a>
                   <a href="#slide2" className="next arrow">
@@ -118,6 +126,8 @@ function Aboutme() {
         </div>
       </div>
     </div>
+  
+
   )
 }
 

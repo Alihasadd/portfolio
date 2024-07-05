@@ -10,11 +10,12 @@ const image = (name) => {
   }
 
 const data = [
+    
     {
         id: 1,
-        title: 'HTML & CSS Course',
+        title: 'Coupon App',
         description: "",
-        image: image("Code1"),
+        image: image("Code12"),
         link: '',
     },
     {
@@ -26,11 +27,11 @@ const data = [
     },
     {
         id: 3,
-        title: 'Coupon App',
+        title: 'HTML & CSS Course',
         description: "",
-        image: image("Code12"),
+        image: image("Code1"),
         link: '',
-    },
+    }
     {
         id: 4,
         title: 'Blog App',
