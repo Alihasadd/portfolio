@@ -46,8 +46,8 @@ const Interview = [
     },
     {
         id: 7,
-        title: 'How do I know about I am about to be laid off?',
-        answer: "You can't always tell but sometimes there will be signs. The most common is a 15 minute check in being put on your calendar. You might see a lot of executives getting stressed or leaving. Eitherway you should always be prepared and protecting yourself.",
+        title: 'What to do when emailing a recruiter for the first time',
+        answer: "Create an email .",
         image: "blog",
         link: '',
     },

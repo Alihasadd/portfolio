@@ -39,8 +39,6 @@ const countries = {
   SK: { year: "2011", scale: 1, phrase: "" }, //Slovakia
   JP: { year: "2016", scale: 1, phrase: "Mairimasu" }, //Japan
   HK: { year: "2017", scale: 1, phrase: "" }, //Hong Kong
-  H: { year: "2017", scale: 1, phrase: "" }, //Hungary
-
   SW: { year: "2017", scale: 1, phrase: "Sticky Rice" }, //Switzerland
   
 
@@ -69,7 +67,7 @@ const countries = {
   // "GQ": "Equatorial Guinea",
   // "ER": "Eritrea",
   // "EE": "Estonia",
-   "ET": "Ethiopia",
+  // "ET": "Ethiopia",
 
 
 };
