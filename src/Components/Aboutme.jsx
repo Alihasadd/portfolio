@@ -63,7 +63,7 @@ function Aboutme() {
 
           <ul className='bg-neutral-200 border border-slate-600 rounded-lg m-5 w-50 dark:bg-zinc-700 dark:text-white group p-5 list-outside overflow-y-auto h-32 hover:shadow-inner'>
             <li className='p-1'>2024 - Peru</li>
-            <li className='p-1'>2023 - Paraguay</li>
+            <li className='p-1'>2023 - Paraguay and Ecuador</li>
             <li className='p-1'>2022 - Denmark, Greenland, and Egypt</li>
             <li className='p-1'>2021 - Pakistan</li>
             <li className='p-1'>2020 - Brasil and Uruguay</li>
@@ -82,12 +82,12 @@ function Aboutme() {
         </div>
 
         <div className='flex justify-between items-center overflow-hidden rounded-lg bg-neutral-100 m-10 dark:bg-blue-950 hover:shadow-lg lg:mx-0'>
-          <span className='p-2 text-lg font-extrabold object-right'>
-              <h1 className='object-right m-5'>Photography</h1>
+          <span className='p-2 text-lg font-lg object-right'>
+              <h1 className='object-right m-5 w-full md:w-1/2'>I like to combine my love of learning with travel. Here I am using my boating license while traveling in Miami</h1>
           </span>
 
-          <main className="md:w-[600px] w-[60vw] overflow-hidden rounded-r-lg object-left">
-              <div id="slide1" className='rounded-r-lg object-left slide'>
+          <main className="md:w-[700px] w-[60vw] overflow-hidden rounded-r-lg object-left">
+              <div id="slide1" className='rounded-r-lg object-left slide '>
                   <img className='rounded-r-lg object-left image' src={santimiami}/>
                   {/* <a href="#slide3" className="prev arrow">
                       &lt;
