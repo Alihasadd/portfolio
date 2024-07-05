@@ -22,12 +22,14 @@ function Aboutme() {
         </div>
 
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
-          <h2 className='pb-2 justify-center text-lg font-extrabold  '>My Skills</h2>
-          <p className='pb-3 '>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
-          <p className='pb-3'>I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>
-          <p className='pb-3'>While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>
-          <p className='pb-3'>I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.</p>
-          <p className='pb-3'>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.</p>
+          <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
+          <div className='divide-y-4 divide-black divide-opacity-25'>
+            <p className='py-4 '>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
+            <p className='py-4'>I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>
+            <p className='py-4'>While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>
+            <p className='py-4'>I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.</p>
+            <p className='py-4'>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.</p>
+          </div>
         </div>
       
         <div className='bg-neutral-100 rounded-lg m-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'> 
@@ -57,7 +59,7 @@ function Aboutme() {
           <h3 className='pb-2 justify-center text-lg font-extrabold'>Travel</h3>  
           <p>I love traveling and had the opportunity to travel to over 40 countries.</p>
           <div className="p-5">
-            <div className='w-full rounded-lg hover:shadow-lg h-[500px] rounded-lg overflow-hidden'>
+            <div className='w-full rounded-lg hover:shadow-lg h-[500px] overflow-hidden'>
               <Worldmap/>
             </div>
           </div>
