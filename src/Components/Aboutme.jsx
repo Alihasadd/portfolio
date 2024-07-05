@@ -15,7 +15,9 @@ function Aboutme() {
               <img src={alisanti} alt="Code" className='group-hover:brightness-125 group-hover:-rotate-1 group-hover:scale-105 group-hover:opacity-80 dark:bg-zinc-700 dark:text-zinc-300 lg:rounded-r-lg' />
             </div>
             <div className="w-full md:w-1/2">
-              <h1 className='p-5 justify-center text-lg hover:rounded-lg font-extrabold'>Hi, I'm Ali</h1>
+            <h1 className='p-5 justify-center text-lg hover:rounded-lg font-medium text-gray-700 lg:text-5xl'>
+                Hi, I'm <span className="font-extrabold text-pink-600">Ali</span>
+              </h1>
               <p className='p-5'>I am from the New York City area and now live in Washington D.C. </p>
             </div>
           </div>
@@ -24,11 +26,20 @@ function Aboutme() {
         <div className='bg-neutral-100 rounded-lg mr-10 ml-10 w-50 dark:bg-blue-950 dark:text-white group hover:shadow-lg p-10 lg:mx-0'>
           <h2 className='pb-2 justify-center text-lg font-extrabold'>My Skills</h2>
           <div className='divide-y-4 divide-black divide-opacity-25'>
-            <p className='py-4 '>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
+            {[
+              "I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. ",
+              "I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.",
+              "While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.",
+              "I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.",
+              "It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.",
+            ].map((item, index) => (
+              <p className='py-5 last:pb-0 divide-y-[5px] divide-rose-950' key={index}>{item}</p>
+            ))}
+            {/* <p className='py-4 '>I started my career as a Recruiter at JP Morgan Chase and then at CIBC (Canadian Imperial Bank of Commerce). While working at CIBC, I wanted a new challenge. Instead of working on legacy processes, I wanted to build out a scalable function, so I started looking to work at a startup. </p>
             <p className='py-4'>I joined an Adtech company in New York City where I helped build out their recruiting and people operations practices including setting up their HR technology and implementing a new applicant tracking system.</p>
             <p className='py-4'>While at a startup, I started to work with a tech team who taught me more about software engineering. I did a Front-end web development course at General Assembly course and I loved it. I wanted to keep learning and over the years I would gather more bits and pieces.</p>
             <p className='py-4'>I wanted to be more immersed in tech, so I started looking for tech roles. I moved Talent tools, HR systems, and doing system implementations and the company's intranet and diving into content strategy on the employee experience engineering team.</p>
-            <p className='py-4'>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.</p>
+            <p className='py-4'>It was there I got to get into the code base and do some software engineering work for the company. Making changes to our code base, pairing with other engineers, code review, collaborating with design, and getting more immersed in software engineering.</p> */}
           </div>
         </div>
       
