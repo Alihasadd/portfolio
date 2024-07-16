@@ -48,12 +48,12 @@ const data = [
     },
     {
         id: 6,
-        title: 'HW Grader',
+        title: 'Grader',
         description: "",
         image: image("Code4"),
         link: '',
     },
-    {
+    { 
         id: 7,
         title: 'Blog App',
         description: "",
